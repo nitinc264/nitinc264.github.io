@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitin Chauhan - Aspiring AI/ML Engineer | Portfolio</title>
+    <meta name="description" content="Portfolio of Nitin Chauhan, a 3rd-year AI & Data Science student, GSSOC'25 Contributor, and 18x Hackathon Finalist.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Nitin Chauhan</a>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-name">Nitin Chauhan</h1>
+                <div class="hero-roles">
+                    <span id="typingText"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    I'm a 3rd-year B.Tech student in Al & Data Science, passionate about leveraging emerging technologies to build innovative and impactful solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn--primary">View Projects</a>
+                    <a href="#contact" class="btn btn--outline">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/nitin-chauhan-6963612a7" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/nitinc264" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:nitinchauhan94500@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                 <div class="image-placeholder">
+                    <img src="Myphoto.jpg" alt="A photo of Nitin Chauhan">
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        With a strong foundation in Python, I've successfully completed internships in Front-End Development and as an Artificial Intelligence Intern. My passion for collaboration and learning has led me to multiple prestigious hackathons across India, where I've worked with talented teams to build scalable, real-world solutions.
+                    </p>
+                    <div class="education-info">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <h4>Bachelor of Technology - Artificial Intelligence & Data Science</h4>
+                            <p>Dr. D. Y. Patil School of Science and Technology, Pune</p>
+                            <p>2023 - 2027</p>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>9.7</h3>
+                            <p>CGPA (1st Year)</p>
+                        </div>
+                        <div class="stat">
+                            <h3>9.0</h3>
+                            <p>CGPA (2nd Year)</p>
+                        </div>
+                        <div class="stat">
+                            <h3>18+</h3>
+                            <p>Hackathon Finalist</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Hackathon Finalist Gallery Section -->
+<section id="hackathon-gallery" class="hackathon-gallery">
+  <div class="container">
+    <h2 class="section-title">Glimpses from Some Hackathon Finals</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="I1.jpeg" alt="Hackathon Finalist 1">
+        <div class="caption">HackCrux Hackathon - Runner Ups</div>
+      </div>
+      <div class="gallery-item">
+        <img src="I2.jpeg" alt="Hackathon Finalist 2">
+        <div class="caption">DYP DPU Hackathon- National Finalist</div>
+      </div>
+      <div class="gallery-item">
+        <img src="I3.jpeg" alt="Hackathon Finalist 3">
+        <div class="caption">Eco Hackathon(IIT BHU) Finalist</div>
+      </div>
+      
+      <!-- Add more .gallery-item blocks for each event -->
+    </div>
+  </div>
+</section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="AI/ML & Data Science">AI/ML & Data Science</button>
+                <button class="filter-btn" data-filter="Programming Languages">Languages</button>
+                <button class="filter-btn" data-filter="Development & Tools">Dev & Tools</button>
+                <button class="filter-btn" data-filter="Concepts">Concepts</button>
+            </div>
+            <div class="skills-grid" id="skillsGrid">
+                </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid" id="projectsGrid">
+                </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot current"></div>
+                    <div class="timeline-content">
+                        <h3>Vice President - Hackathon Club</h3>
+                        <span class="timeline-company">Dr. D. Y. Patil School of Science and Technology</span>
+                        <span class="timeline-period">September 2025 - Present</span>
+                        <p>Spearheaded the organization of SIH internal rounds for 59+ teams and mentored students through 5+ workshops on hackathon methodologies.</p>
+                    </div>
+                </div>
+                 <div class="timeline-item">
+                    <div class="timeline-dot current"></div>
+                    <div class="timeline-content">
+                        <h3>Campus Ambassador</h3>
+                        <span class="timeline-company">Unstop</span>
+                        <span class="timeline-period">July 2025 - Present</span>
+                        <p>Engaging actively with diverse tech communities, I empower and inspire peer growth, fostering a dynamic environment while representing Unstop. My role involves promoting initiatives, organizing events, and building strong relationships to maximize engagement.</p>
+                    </div>
+                </div>
+                 <div class="timeline-item">
+                    <div class="timeline-dot current"></div>
+                    <div class="timeline-content">
+                        <h3>Tech Contributor</h3>
+                        <span class="timeline-company">GirlScript Summer of Code</span>
+                        <span class="timeline-period">July 2025 - Present</span>
+                        <p>Proudly contributing as a Tech Contributor at GirlScript Summer of Code (GSSoC'25), I actively develop and enhance open-source projects. This experience allows me to apply technical skills, collaborate with a global community, and gain practical exposure to real-world software development workflows.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Artificial Intelligence Intern</h3>
+                        <span class="timeline-company">PRASUNET</span>
+                        <span class="timeline-period">March 2025 - April 2025</span>
+                        <p>Developed an AI-based real-time sign language translator with low-latency performance to enhance accessibility. My work involved leveraging Python, and OpenCV for robust computer vision and gesture recognition. I managed the complete model lifecycle, from data preprocessing to training, gaining deep expertise in building practical AI solutions.</p>
+                    </div>
+                </div>
+                 <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Frontend Developer</h3>
+                        <span class="timeline-company">Edunet Foundation</span>
+                        <span class="timeline-period">June 2024 - July 2024</span>
+                        <p>Completed a 6-week internship with IBM SkillsBuild, focusing on modern frontend development. I built responsive, mobile-first user interfaces for real-world projects using HTML, CSS, and JavaScript. Collaborating in a team environment, I utilized Git for version control, strengthening my practical skills in UI development and professional workflows.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Recognition</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Wadhwani Foundation Incubation Offer</h3>
+                    <p>Awarded an incubation offer for an innovative AI + AR/VR-based Smart Hydroponics startup idea.</p>
+                    <span class="achievement-category innovation">Innovation</span>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>18x Hackathon Finalist</h3>
+                    <p>Consistently placed in top tiers at major national events, including CredX AI Challenge (Top 6) and Atom Quest, IIT Madras (Semifinalist).</p>
+                    <span class="achievement-category competition">Competition</span>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>World Computer Hacker League</h3>
+                    <p>Qualified at the International Level after advancing through Regional and National rounds with our innovative project.</p>
+                    <span class="achievement-category academic">International</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="personal" class="personal">
+        <div class="container">
+            <h2 class="section-title">Personal Details</h2>
+            <div class="personal-content">
+                <div class="personal-card">
+                    <h3><i class="fas fa-language"></i> Languages</h3>
+                    <div class="language-list">
+                        <span class="language-tag">English</span>
+                        <span class="language-tag">Hindi</span>
+                        <span class="language-tag">Bhojpuri</span>
+                    </div>
+                </div>
+                <div class="personal-card">
+                    <h3><i class="fas fa-heart"></i> Hobbies & Interests</h3>
+                    <div class="hobby-list">
+                         <div class="hobby-item">
+                            <i class="fas fa-robot"></i>
+                            <span>Playing Kabaddi</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-vr-cardboard"></i>
+                            <span>Cooking</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-code-branch"></i>
+                            <span>Exploring new places</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="personal-card">
+                    <h3><i class="fas fa-info-circle"></i> Location</h3>
+                     <div class="fact-list">
+                        <div class="fact-item">
+                             <span class="fact-label">City:</span>
+                            <span class="fact-value">Pune</span>
+                        </div>
+                        <div class="fact-item">
+                            <span class="fact-label">State:</span>
+                            <span class="fact-value">Maharashtra</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new opportunities, exciting projects, and innovative ideas in AI and Data Science.</p>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>nitinchauhan94500@gmail.com</span>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Pune, Maharashtra, India</span>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://www.linkedin.com/in/nitin-chauhan-6963612a7" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/nitinc264" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:nitinchauhan94500@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                    <div class="form-status" id="formStatus"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Nitin Chauhan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
